@@ -1,6 +1,6 @@
 {
   "name": "magnets",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": " mapping, filtering and reducing with cloures",
   "main": "lib/index.js",
   "scripts": {
