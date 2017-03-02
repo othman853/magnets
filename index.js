@@ -1,11 +1,12 @@
 const { from, filter, map, is, not, uppercase } = require('./lib');
+const { log } = console;
 
 const letters = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p'];
 
-const vowelsOnly =
+log(
   (from
     (letters)
-      (filter, is('a', 'e', 'i', 'o', 'u')))();
+      (filter, is('a', 'e', 'i', 'o', 'u')))());
 
 const consonantsOnly =
   (from
@@ -13,5 +14,4 @@ const consonantsOnly =
       (filter, not(is('a', 'e', 'i', 'o', 'u')))
         (map, uppercase))();
 
-console.log(vowelsOnly);
-console.log(consonantsOnly);
+log(consonantsOnly);
