@@ -4,7 +4,9 @@ Mapping, filtering and (hopefully as soon as possible) reducing lists through cl
 
 What are the practical advantages of this? I don't really know (or care), I did this for learning purposes. The syntax ended up being pretty cool.
 
-I hope the lib could be self explanatory, and by just looking at `sample.js` people can figure out what it is all about. In case it is not that simple, here goes an example:
+I hope the lib could be self explanatory, and by just looking at `sample.js` people can figure out what it is all about.
+
+__Here is a comparative example:__
 
 Consider this vanilla.js example:
 
