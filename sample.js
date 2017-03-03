@@ -12,10 +12,10 @@ const isConsonant = l => !isVowel(l);
 const uppercase = l => l.toUpperCase();
 const concat = (a, b) => a.concat(b);
 
-log(from(alphabet) (map, uppercase) (reduce(''), concat) ());
+from(alphabet) (map, uppercase) (reduce(''), concat) (log);
 
-from(alphabet) (map, uppercase) (each, log);
+from(alphabet) (map, uppercase) (log);
 
-from(alphabet) (filter, isVowel) (each, log);
+from(alphabet) (filter, isVowel) (log);
 
-from(alphabet) (filter, isConsonant) (map, uppercase) (each, log);
+from(alphabet) (filter, isConsonant) (map, uppercase) (log);
