@@ -19,10 +19,12 @@ can be also achieved by:
 const { from, filter, map, is, not } = require('magnets');
 const letters = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q'];
 
+const isNotVowel = not(is('a', 'e', 'i', 'o', 'u')); // some filters come out of the box, and they can be compound huh? ;)
+
 const vowelsOnly = 
   (from
     (letters)
-      (filter, not(is('a', 'e', 'i', 'o', 'u')))
+      (filter, isNotVowel)
         (map, l => l.toUpperCase())();
 
 console.log(vowelsOnly); // [a,e,i,o];
