@@ -1,6 +1,6 @@
 # Magnets
 
-Mapping, filtering and (hopefully as soon as possible) reducing lists through closures.
+Mapping, filtering and reducing lists through closures.
 
 What are the practical advantages of this? I don't really know (or care), I did this for learning purposes. The syntax ended up being pretty cool.
 
