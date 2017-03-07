@@ -13,11 +13,6 @@ const isConsonant = l => !isVowel(l);
 const uppercase = l => l.toUpperCase();
 const concat = (a, b) => a.concat(b);
 
-// TODO: Figure out how hard would it be to implement a flatten
-// const matrix = [ [1, 2], [3, 4] ];
-// from(matrix) (flatten) (log);
-
-
 $(alphabet) (map, uppercase) (reduce(''), concat) (log);
 
 $(alphabet) (map, uppercase) (log);
